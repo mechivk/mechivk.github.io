@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre Tienda</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+        <div class="main-header">
+            <img src="./img/logo tienda.png" id="logo-tienda" alt="logo-notebook-tienda">
+            <h1>Mi tienda de superheroes</h1>
+        </div>
+    </header>
+    <div class="contacto">
+        <h2>Contacto</h2>
+        <form class="contact-form" action="inicio.html">
+            <input type="text" name="nombre-y-apellido"
+                    placeholder="Nombre y Apellido"
+                    oninvalid="setCustomValidity('Este campo es obligatorio')">
+            <input type="emal" name="email"
+                    placeholder="Correo Electrónico"
+                    oninvalid="setCustomValidity('Por favor ingresar un mail válido')">
+            <textarea name="comentario" placeholder="Comentario"></textarea>     
+            <input type="reset" value="Resetear" class="small-button reset">
+            <input type="submit" value="Enviar" class="small-button enviar">
+        </form> 
+    </div>    
+    <footer>
+            <p id="derechos">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

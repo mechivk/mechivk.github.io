@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+h1 {
+    background-color: #00669F;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 84px;
+    color: white;
+    margin: 0;
+    padding-left: 20px;
+}
+
+article {
+    display: block;
+}
+
+footer {
+    background-color: #00669F;
+    height: 50px;
+    position: relative;
+}
+
+/* TOP ASIDE */
+
+.descuento {
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+/* SECTION 1 - CARDS */
+
+.card {
+    width:400px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* CARD HEADER */
+
+.card-header {
+    border-radius: 12px 12px 0px 0px;
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.card-header.img-super1 {
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.card-header.img-super2 {
+    background-image: url(../img/bg-wonderw.jpg);
+}
+
+.card-header.img-super3 {
+    background-image: url(../img/bg-superman.jpg);
+}
+
+.perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.super {
+    width: 400px;
+    position: relative;
+    right: 120px;
+}
+
+.fa-heart{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+    font-size: 30px;
+}
+
+
+/* CARD BODY */
+
+.card-body {
+    background-color: #F3F3F3;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 100px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    background-color: #00669F;
+    border-radius: 7px;
+    height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 15px;
+    color: white;
+
+}
+
+/* SECTION 2 - BOTON DE SUMA*/
+
+.fa-plus-circle{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: #00669F;
+    font-size: 50px;
+}
+
+
+/* FOOTER */
+
+.derechos {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#github {
+    width: 70px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}

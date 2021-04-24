@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #F2EAD0;
+    margin: 0;
+}
+
+h1, h2 {
+    display: inline-block;
+    font-size: 21px;
+    margin: 0
+}
+
+h2 {
+    float: right;
+    font-style: italic;
+    color:#f3e25f;
+}
+
+header {
+    background-color: #012840;
+    color: #F2EAD0;
+    padding: 15px 20px;
+    
+}
+
+footer {
+    font-size:14px;
+    background-color: #012840;
+    color:#F2EAD0;
+    padding: 5px;
+    text-align: center;
+}
+
+/* BOTONES */
+
+
+.container {
+    width: 890px;
+    margin: 200px auto;
+    font-size: 15px;
+}
+
+.trabajo {
+    display: inline-block;
+    width: 215px;
+    height: 215px;
+    text-align: center;
+    vertical-align: top;
+    color: #101010;
+}
+
+.trabajo-1 {
+    background-color: #f3e25f;
+    padding-top: 30px;
+}
+
+
+.trabajo-2 {
+    background-color: #F2A20C;
+    padding-top: 30px;
+}
+
+.trabajo-3 {
+    background-color: #F28627;
+    padding-top: 20px;
+}
+
+.trabajo-4 {
+    background-color: #D93636;
+    padding-top: 20px;
+}
+
+.trabajo-1 h3 {
+    margin-top: 5px;
+}
+
+.trabajo-2 h3 {
+    margin-top: 28px;
+}
+
+.trabajo-3 h3 {
+    margin-top: 15px;
+}
+
+.trabajo-4 h3 {
+    margin-top: 5px;
+}
+
+
+.icon {
+    margin: 0 auto;
+}
+
+.icon-1 {
+    background-image: url("../img/pie.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.icon-2 {
+    background-image: url("../img/resume.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 12px;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.icon-3 {
+    background-image: url("../img/playing-cards.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    margin-top: 15px;
+}
+
+.icon-4 {
+    background-image: url("../img/shield.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+/* BOTONES - HOVER */ 
+
+.trabajo-1:hover > .icon{
+    transform: rotate(20deg);
+    transition: 300ms ease all;
+}
+
+.trabajo-2:hover > .icon{
+    transform: rotate(20deg);
+    transition: 300ms ease all;
+}
+
+.trabajo-3:hover > .icon{
+    transform: rotate(20deg);
+    transition: 300ms ease all;
+}
+
+.trabajo-4:hover > .icon{
+    transform: rotate(20deg);
+    transition: 300ms ease all;
+}
+
+
+

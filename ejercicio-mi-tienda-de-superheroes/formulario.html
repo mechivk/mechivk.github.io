@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/nuevosuperstyle.css">
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+        <div class="main-header">
+            <img src="/img/logo tienda.png" id="logo-tienda" alt="logo-notebook-tienda">
+            <h1>Mi tienda de superheroes</h1>
+        </div>
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <a href="./contacto.html"><li>Contacto</li></a>
+                    <a href="./registro.html"><li>Registro</li></a>
+                    <a href="./index.html"><li>Ingresar</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="nuevo-super">
+            <form action="exito.html">
+            <h3>Añadí a tu super!</h3>
+            <p>Agregá a tu personaje favorito completando las opciones.</p>
+            <div class="first-column">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Nombre" oninvalid="setCustomValidity('Este campo es obligatorio')">
+                <label for="fecha">Fecha</label>
+                <input type="date" name="date">
+                <textarea name="descripcion" placeholder="Descripción"></textarea>
+            </div>
+            <div class="second-column">
+                    <label for="especie">Especie</label>
+                    <select name="especie" id="especie" >
+                        <option disabled selected>Especie</option>
+                        <option value="1">Hombre lobo</option>
+                        <option value="2">Super fuerte</option>
+                        <option value="3">Super rápido</option>
+                        <option value="4">Lanzallamas</option>
+                        <option value="5">Lanzahielo</option>
+                        <option value="6">Desconocido</option>
+                    </select>
+                    <label for="foto">Agregar foto</label>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+
+                    <label for="poder" class="title">Poderes</label>
+                    <div class="form-container"></div>
+                        <div class="poder">
+                            <input type="checkbox" name="poder1" value="Volar">
+                            <label for="poder1"></label>Volar</label>
+                        </div>
+                        <div class="poder">
+                            <input type="checkbox" name="poder2" value="Superinteligencia">
+                            <label for="poder2">Superinteligencia</label>
+                        </div>
+                        <div class="poder">
+                            <input type="checkbox" name="poder3" value="Vista de rayos laser">
+                            <label for="poder3">Vista de rayos laser</label>
+                        </div>
+                        <div class="poder">
+                            <input type="checkbox" name="poder4" value="Garras de acero">
+                            <label for="poder4">Garras de acero</label>
+                    </div>
+                    <hr>
+                    <label for="personaje" class="title">Tipo de personaje</label>
+                    <div class="form-container">
+                        <div class="personaje">
+                            <input type="radio" name="personaje" value="Héroe / Heroina">
+                            <label for="personaje">Héroe / Heroina</label>
+                        </div>
+                        <div class="personaje">
+                            <input type="radio" name="personaje" value="Villano / Villana">
+                            <label for="personaje">Villano / Villana</label>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            <input type="submit" value="Añadir" class="bigger-button">
+        </form>
+        </section>
+    </main>
+    <footer>
+            <p id="derechos">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+    
+</body>
+</html>

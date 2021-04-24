@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Karla:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #00669F;
+    --secondary-color: #1CD1B0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100%;
+    position: relative;
+}
+
+aside {
+    background-color: var(--secondary-color);
+    padding: 5px 0px;
+    padding-left: 5px;
+}
+
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+}
+
+input, select, textarea {
+    display: block;
+    padding: 10px;
+    width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto 10px auto;
+    font-family: Karla, sans-serif;
+}
+
+textarea {
+    height: 200px
+}
+
+hr {
+    height: 0.5px;
+    border: none;
+    background-color: white;
+}
+
+
+footer {
+    background-color: var(--main-color);
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+p span {
+    color:var(--main-color)
+}
+
+a {
+    color: var(--main-color)
+}
+
+a:visited {
+    color: #12435f
+}
+
+a:active {
+    color:var(--secondary-color)
+}
+
+
+.main-header{
+    background-color: var(--main-color);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.login, .registro, .contacto{
+    margin: 0 auto 100px;
+    text-align: center;
+    position: relative;
+    width: 400px;
+}
+
+.login-container {
+    height: 70vh;
+}
+
+.big-button {
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    border: none;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+.small-button {
+    display: inline-block;
+    width:197px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.small-button.reset {
+    background-color: #888888;
+    color: white;
+}
+
+.small-button.entrar, .small-button.enviar {
+    background-color: var(--secondary-color);
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    cursor: pointer;
+}
+
+
+#logo-tienda {
+    height: 40px;
+    vertical-align: middle;
+}
+
+
+

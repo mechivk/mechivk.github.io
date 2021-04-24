@@ -1,0 +1,156 @@
+@import url(style.css);
+
+:root {
+    --main-color: #00669F;
+    --secondary-color: #1CD1B0;
+}
+
+nav {
+    height: 30px;
+    background-color:#001D2D;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    color: white;
+
+}
+
+nav ul {
+    float: right;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+h3 {
+    color:white;
+}
+
+
+
+/* HEADER */ 
+
+.main-header{
+    background-color: var(--main-color);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nuevo-super {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 800px;
+    color: white;
+    margin: 100px auto;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+
+.nuevo-super p {
+    text-align: center;
+}
+
+.first-column, .second-column {
+    display: inline-block;
+    box-sizing:initial;
+    padding: 10px;
+    margin: 0;
+    vertical-align: top;
+    width: 350px;
+    
+}
+
+.first-column input, .first-column textarea {
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    width: 350px
+}
+
+.second-column select {
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    width: 350px;
+}
+
+.poder input, .poder label, .personaje input, .personaje label {
+    display: inline-block;
+    text-align: left;
+    width: fit-content;
+    
+    
+}
+
+
+.bigger-button {
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    border: none;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.form-container {
+    padding-top: 10px;
+}
+
+.exito-container {
+    text-align: center;
+    margin: 130px auto 200px;
+    width: 600px;
+    height: fit-content;
+    position: relative;
+
+}
+
+.exito-container p {
+    color: white;
+    font-weight: 400;
+}
+
+.exito-top-container {
+    background-color: var(--main-color);
+    border-radius: 30px 30px 0 0;
+    width: 600px;
+    padding:30px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.check {
+    background: url("../img/check.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.button-incrustado {
+    color: #001D2D;
+    font-weight: 500;
+    border-radius: 0 0 30px 30px;
+    width: 600px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 30px;
+    position: absolute;
+    bottom: -60px;
+}
+
+.bigger-button:hover {
+    cursor: pointer;
+    background-color:#001D2D;
+    color: white;
+}

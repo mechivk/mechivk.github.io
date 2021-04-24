@@ -1,0 +1,231 @@
+
+
+:root {
+    --main-color: #00669F;
+    --secondary-color: #1CD1B0;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+aside {
+    background-color: var(--secondary-color);
+    padding: 5px 0px;
+    padding-left: 5px;
+}
+
+nav {
+    height: 30px;
+    background-color:#001D2D;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    color: white;
+
+}
+
+nav ul {
+    float: right;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+article {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 5px;
+}
+
+/* TOP ASIDE */
+
+.descuento {
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+/* HEADER */ 
+
+.main-header{
+    background-color: var(--main-color);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+/* SECTION 1 - CARDS */
+
+.card-container {
+    width: 1000px;
+    margin: 50px auto 150px;
+    text-align: center;
+}
+
+.card {
+    width:300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.card-1{
+    float: left;
+}
+
+.card-2 {
+    margin: 50px auto;
+}
+
+.card-3 {
+    float: right;
+}
+
+
+
+/* CARD HEADER */
+
+.card-header {
+    border-radius: 12px 12px 0px 0px;
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+}
+
+.card-header.img-super1 {
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.card-header.img-super2 {
+    background-image: url(../img/bg-harley.jpg);
+}
+
+.card-header.img-super3 {
+    background-image: url(../img/bg-superman.jpg);
+}
+
+.perfil-1, .perfil-2, .perfil-3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    z-index: 30;
+}
+
+.perfil-1 {
+    background: url("../img/batman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.perfil-2 {
+    background: url("../img/harley.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.perfil-3 {
+    background: url("../img/superman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fa-heart{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #CC2424;
+    font-size: 30px;
+}
+
+
+/* CARD BODY */
+
+.card-body {
+    background-color: #F3F3F3;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 100px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    background-color: #00669F;
+    border-radius: 7px;
+    vertical-align: middle;
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    padding: 15px;
+    bottom: 20px;
+    left: 30%;
+
+}
+
+/* SECTION 2 - BOTON DE SUMA*/
+
+.fa-plus-circle{
+    position: fixed;
+    bottom: 300px;
+    right: 50px;
+    color: #00669F;
+    font-size: 50px;
+}
+
+.fa-plus-circle:hover {
+    color: #001D2D;
+}
+
+
+/* FOOTER */
+
+.derechos {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+}
+
+#github {
+    width: 70px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#logo-tienda {
+    height: 40px;
+    vertical-align: middle;
+}
