@@ -18,13 +18,11 @@
     <div class="contacto">
         <h2>Contacto</h2>
         <form class="contact-form" action="inicio.html">
-            <input type="text" name="nombre-y-apellido"
-                    placeholder="Nombre y Apellido"
-                    oninvalid="setCustomValidity('Este campo es obligatorio')">
+            <input type="text" name="nombre-y-apellido" placeholder="Nombre y Apellido" required>
             <input type="emal" name="email"
                     placeholder="Correo Electrónico"
-                    oninvalid="setCustomValidity('Por favor ingresar un mail válido')">
-            <textarea name="comentario" placeholder="Comentario"></textarea>     
+                    oninvalid="setCustomValidity('Por favor ingresar un mail válido')" required>
+            <textarea name="comentario" placeholder="Comentario" required></textarea>     
             <input type="reset" value="Resetear" class="small-button reset">
             <input type="submit" value="Enviar" class="small-button enviar">
         </form> 
