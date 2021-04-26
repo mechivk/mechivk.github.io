@@ -161,5 +161,24 @@ footer {
     transition: 300ms ease all;
 }
 
+.trabajo-1:hover{
+    transform: scale(0.95);
+    transition: 300ms ease all;
+}
+
+.trabajo-2:hover{
+    transform: scale(0.95);
+    transition: 300ms ease all;
+}
+
+.trabajo-3:hover{
+    transform: scale(0.95);
+    transition: 300ms ease all;
+}
+
+.trabajo-4:hover{
+    transform: scale(0.95);
+    transition: 300ms ease all;
+}
 
 
