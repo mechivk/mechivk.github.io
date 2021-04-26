@@ -54,7 +54,6 @@ footer {
     text-align: center;
     vertical-align: top;
     color: #101010;
-    transition: trasnform 300ms ease all;
 }
 
 .trabajo-1 {
@@ -145,34 +144,42 @@ footer {
 
 .trabajo-1:hover > .icon{
     transform: rotate(20deg);
+    transition: 300ms ease all;
 }
 
 .trabajo-2:hover > .icon{
     transform: rotate(20deg);
+    transition: 300ms ease all;
 }
 
 .trabajo-3:hover > .icon{
     transform: rotate(20deg);
+    transition: 300ms ease all;
 }
 
 .trabajo-4:hover > .icon{
     transform: rotate(20deg);
+    transition: 300ms ease all;
 }
 
 .trabajo-1:hover{
     transform: scale(0.95);
+    transition: 300ms ease all;
 }
 
 .trabajo-2:hover{
     transform: scale(0.95);
+    transition: 300ms ease all;
 }
 
 .trabajo-3:hover{
     transform: scale(0.95);
+    transition: 300ms ease all;
 }
 
 .trabajo-4:hover{
     transform: scale(0.95);
+    transition: 300ms ease all;
 }
 
 
