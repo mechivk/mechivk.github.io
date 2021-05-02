@@ -42,8 +42,15 @@ footer {
 
 .container {
     width: 890px;
-    margin: 200px auto;
+    margin: 10px auto;
     font-size: 15px;
+}
+
+.container:first-child {
+    margin-top: 150px;
+}
+.container:nth-child(2) {
+    margin-bottom: 20%;
 }
 
 .trabajo {
@@ -75,6 +82,14 @@ footer {
     background-color: #D93636;
     padding-top: 20px;
 }
+.trabajo-5 {
+    background-color: #83b5c7;
+    padding-top: 20px;
+}
+.trabajo-6 {
+    background-color: #4a86d5;
+    padding-top: 20px;
+}
 
 .trabajo-1 h3 {
     margin-top: 5px;
@@ -90,6 +105,10 @@ footer {
 
 .trabajo-4 h3 {
     margin-top: 5px;
+}
+.trabajo-6 h3 {
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 
@@ -139,6 +158,25 @@ footer {
     margin-top: 20px;
 }
 
+.icon-5 {
+    background-image: url("../img/animation\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+}
+.icon-6 {
+    background-image: url("../img/luggage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
 /* BOTONES - HOVER */ 
 
 .trabajo-1:hover > .icon{
@@ -160,6 +198,15 @@ footer {
     transform: rotate(20deg);
     transition: 300ms ease all;
 }
+.trabajo-5:hover > .icon{
+    transform: rotate(20deg);
+    transition: 300ms ease all;
+}
+.trabajo-6:hover > .icon{
+    transform: rotate(20deg);
+    transition: 300ms ease all;
+}
+
 
 .trabajo-1:hover{
     transform: scale(0.95);
@@ -180,5 +227,14 @@ footer {
     transform: scale(0.95);
     transition: 300ms ease all;
 }
+.trabajo-5:hover{
+    transform: scale(0.95);
+    transition: 300ms ease all;
+}
+.trabajo-6:hover{
+    transform: scale(0.95);
+    transition: 300ms ease all;
+}
+
 
 
